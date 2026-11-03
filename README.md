@@ -1,4 +1,4 @@
-# Dropping Tokens Without Dropping Them: Closed-Form Causal Attribution for Diabetic Retinopathy
+# Dropping Tokens Without Dropping Them: Causal Attribution for Diabetic Retinopathy
 
 **Pramath Girish Haritz, Chandra Sekhar Seelamantula** · Indian Institute of Science · submitted to ISBI 2027
 
@@ -18,7 +18,7 @@ lesion-localisation experiment of the paper.
 
 ## Contents
 
-- [Dropping Tokens Without Dropping Them: Closed-Form Causal Attribution for Diabetic Retinopathy](#dropping-tokens-without-dropping-them-closed-form-causal-attribution-for-diabetic-retinopathy)
+- [Dropping Tokens Without Dropping Them: Causal Attribution for Diabetic Retinopathy](#dropping-tokens-without-dropping-them-causal-attribution-for-diabetic-retinopathy)
   - [Contents](#contents)
   - [Quick start](#quick-start)
   - [Three ways to use this repository](#three-ways-to-use-this-repository)
