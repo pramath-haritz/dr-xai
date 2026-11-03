@@ -2,6 +2,15 @@
 
 **Pramath Girish Haritz, Chandra Sekhar Seelamantula** · Indian Institute of Science · submitted to ISBI 2027
 
+![Fig. 1: the contribution c_t contains the causal pull p_t, yet can rank lesions last](assets/fig1.png)
+
+<sub>**Fig. 1.** The contribution c_t sums a pull term and an attention term (Eq. 4). On this grade-1 image the negative
+attention term outweighs the pull term, so c_t ranks the six most-attended patches, which hold the lesions, last of
+7,189, while the pull p_t ranks them correctly: (a) expert lesions and the top-6 attended patches, (b) both terms per
+patch, (c) the grade score as the top-ranked patches are dropped. Removing one p_t patch lowers the grade; removing
+40 c_t patches does not. Fundus image from the Messidor database, kindly provided by the Messidor program partners
+(see https://www.adcis.net/en/third-party/messidor/); lesion outlines from MAPLES-DR (CC BY 4.0).</sub>
+
 This repository has the code and model weights of the paper. A vision transformer with a multi-head attention-pooling
 (MAP) head grades diabetic retinopathy (DR). The head explains each grade in closed form, with three maps per image:
 
@@ -69,7 +78,7 @@ uv run python pool_identity.py report --from paper_results            # Fig. 1, 
 
 > [!NOTE]
 > Fig. 1 draws its fundus image from the original Messidor in `data/messidor/`, because the Messidor terms do not
-> allow the image to be shared (see [License and data terms](#license-and-data-terms)). Its lesion outlines are
+> allow the database to be redistributed (see [License and data terms](#license-and-data-terms)). Its lesion outlines are
 > already in `paper_results/`. Without Messidor, the report skips Fig. 1 and prints everything else.
 
 ### 2. Rerun the experiments from the released weights (GPU)
@@ -292,7 +301,8 @@ data/ cache/ checkpoints/ outputs/   (not tracked) datasets, crops, weights, you
 - **Fig. 1 lesion outlines:** `paper_results/pool_identity/fig1_lesions.png` is derived from the expert masks of
   MAPLES-DR (CC BY 4.0).
 - **Fig. 1 image:** from the Messidor database, kindly provided by the Messidor program partners (see
-  https://www.adcis.net/en/third-party/messidor/). Its terms do not allow redistribution, so it is not included.
+  https://www.adcis.net/en/third-party/messidor/). Its terms do not allow redistribution, so the image file is not
+  included; it appears only inside the rendered figure at the top of this README (`assets/fig1.png`), as in the paper.
 
 > [!WARNING]
 > The models are for research purposes only, not medical devices. Do not use them for clinical decisions.
