@@ -1,0 +1,13 @@
+# data, caches and run outputs (see README)
+data/
+cache/
+checkpoints/
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# paper sources and audit notes (not released)
+isbi-dr-xai/

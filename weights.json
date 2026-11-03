@@ -1,0 +1,29 @@
+{
+  "url": "https://github.com/pramath-haritz/dr-xai/releases/download/v1.0/",
+  "files": {
+    "coral_seed0.safetensors": {
+      "sha256": "dda494d27df2ddde86f786288b81e8cd1f503263d88fd5e7b20ca6896b06314a",
+      "bytes": 371741756
+    },
+    "coral_seed1.safetensors": {
+      "sha256": "0e0b70deed021592d2a0a9e35449e918912aeb5bf4a5bc158a39cf5aee345a08",
+      "bytes": 371741756
+    },
+    "coral_seed2.safetensors": {
+      "sha256": "031bf4e9674403d5cedcf405c6212727bd58c9f735cf4c89d4592a0632809050",
+      "bytes": 371741764
+    },
+    "ce_seed0.safetensors": {
+      "sha256": "186a7dd1759bc1fe5ba2efe676ac7a378db7962be006932fd57e8261f70ae247",
+      "bytes": 371753956
+    },
+    "ce_seed1.safetensors": {
+      "sha256": "debf684c3c7136380a7235ca2cbb655d26eee3bf49881ed68dc6f5e2584ebcb3",
+      "bytes": 371753956
+    },
+    "ce_seed2.safetensors": {
+      "sha256": "30cc9290ac01f56b27c985c739722e5b277243a3c594d160bf969a865dc2af8c",
+      "bytes": 371753956
+    }
+  }
+}
